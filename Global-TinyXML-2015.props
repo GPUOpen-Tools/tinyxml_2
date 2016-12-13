@@ -16,11 +16,11 @@
     </ClCompile>
     <Link>
       <AdditionalDependencies>tinyxml.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(TinyXMLDir)\VS2015\$(GDTCRT)\$(GDTPlatform)\$(TinyXMLConfigurationFolderName)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(TinyXMLDir)\VS2015\$(AMDTCRT)\$(AMDTPlatform)\$(TinyXMLConfigurationFolderName)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
      <Lib>
       <AdditionalDependencies>tinyxml.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(TinyXMLDir)\VS2015\$(GDTCRT)\$(GDTPlatform)\$(TinyXMLConfigurationFolderName)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(TinyXMLDir)\VS2015\$(AMDTCRT)\$(AMDTPlatform)\$(TinyXMLConfigurationFolderName)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
